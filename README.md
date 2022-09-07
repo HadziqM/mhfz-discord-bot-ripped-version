@@ -5,13 +5,13 @@ i m sorry i cant share the full extent of my bot since its fully customized for 
 
 ## Preparation to make <br />
 
-download or clone this repository <br/>
-then just create your own bot on discord developer portal, there is also many guide to make one <br/>
-get your bot token and save it <br />
-install python in your PC and make sure pip path is in your enviromental variable <br />
-install module listed in pip_instal_req.txt <br />
-open folder query in this repo root folder then open query.py to make new table required in the database<br />
-thats it you fulfilled all the requirement need<br />
+1. download or clone this repository <br/>
+2. then just create your own bot on discord developer portal, there is also many guide to make one <br/>
+3. get your bot token and save it <br />
+4. install python in your PC and make sure pip path is in your enviromental variable <br />
+5. install module listed in pip_instal_req.txt <br />
+6. open folder query in this repo root folder then open query.py to make new table required in the database<br />
+   thats it you fulfilled all the requirement need<br />
 
 ## How to deploy bot <br />
 
