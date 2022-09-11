@@ -27,4 +27,4 @@ async def start(bot, extension):
         print('confirming token')
         await bot.start(db.token)
 if __name__ == '__main__':
-    asyncio.get_event_loop().run_until_complete(start())
+    asyncio.get_event_loop().run_until_complete(start(bot, extension))
