@@ -10,7 +10,7 @@ i m sorry i cant share the full extent of my bot since its fully customized for 
    https://discord.com/developers/applications there is link to discord's dev portal <br />
 3. get your bot token and save it <br />
 4. install python in your PC and make sure pip path is in your enviromental variable <br />
-   if you have problem pip isnt recognized then you mignt want to visit this site https://www.alphr.com/pip-is-not-recognized-as-an-internal-or-external-command/ <br />
+   if you have problem pip isnt recognized then you might want to visit this site https://www.alphr.com/pip-is-not-recognized-as-an-internal-or-external-command/ <br />
 5. install module listed in pip_instal_req.txt, you can just copy paste every line on pip_install_req.txt to cmd then enter to install it<br />
 6. open database.ini and fill it with your credential(fill postgress section is needed to preceed to next step) <br />
 7. open folder query in this repo root folder then open query.py to make new table required in the database<br />

@@ -5,6 +5,11 @@ pip install psycopg2
 pip install discord.py==1.7.3
 pip install discord-pretty-help
 
+
+if pip install discord.py==1.7.3 didnt work for you, you might want to use this insted
+
+pip install discord.py==1.7.3 --user
+
 if you want to use discord.py V2(latest) instead you need asyncio module
 
 pip install discord.py
