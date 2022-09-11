@@ -6,8 +6,10 @@ from pretty_help import PrettyHelp, DefaultMenu
 db = database()
 
 
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.members = True
+intents.typing = True
+intents.presence = True
 
 menu = DefaultMenu(page_left="◀️", page_right="▶️", remove="❌")
 bot = commands.Bot(command_prefix=db.command,

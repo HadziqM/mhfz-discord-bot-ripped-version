@@ -10,16 +10,26 @@ i m sorry i cant share the full extent of my bot since its fully customized for 
    https://discord.com/developers/applications there is link to discord's dev portal <br />
 3. get your bot token and save it <br />
 4. install python in your PC and make sure pip path is in your enviromental variable <br />
+<<<<<<< HEAD
    if you have problem pip isnt recognized then you mignt want to visit this site https://www.alphr.com/pip-is-not-recognized-as-an-internal-or-external-command/ <br />
 5. install module listed in pip_instal_req.txt <br />
 6. open database.ini and fill it with your credential(fill postgress section is needed to preceed to next step) <br />
+=======
+5. install module listed in pip_instal_req.txt, you can just copy paste every line on pip_install_req.txt to cmd then enter to install it<br />
+6. Edit database.ini with any text editor like notepad and fill it with your credential<br />
+>>>>>>> d2c042883b03e64e098bd1b48233b9d7419a71dd
 7. open folder query in this repo root folder then open query.py to make new table required in the database<br />
    thats it you fulfilled all the requirement need<br />
 
 ## How to deploy bot <br />
 
 i m designing this to make it easier for someone to develope it, so the set-up is easy <br /><br />
+<<<<<<< HEAD
 for non developer you can just open database ini and fill it with your credential, other detail is self explainatory <br />
 to make bot service always active then always open main.py, if the window close then bot will offline, if you prever using discord.py latest version then use mainV2.py instead<br /><br />
 for developers you can pretty much extend the code in folder cogs for command and base.py in root folder for database communication <br />
+=======
+for non developer you can just run main.py, either open with python or trough cmd (python main.py) then enter, make sure script is always active to make bot always online, if the window close then bot will offline <br />  <br />
+for developers you can pretty much extend the code in folder cogs for command and base.py in root folder for database communication <br /><br />
+>>>>>>> d2c042883b03e64e098bd1b48233b9d7419a71dd
 for the command and how to use it is pretty much same with rain server
